@@ -23,6 +23,7 @@ int main(){
 	first->next=second;
 	second->next=three;
 	three->next=four;
+	four->next=NULL;
 
 	// cout<<"four next";
 
